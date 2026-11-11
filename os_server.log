@@ -1,0 +1,69 @@
+[2026-11-11 16:48:40] Server started. Waiting for requests on /tmp/os_server_fifo (Ctrl+C to stop)
+[2026-11-11 16:48:41] Request from C101: CONNECT 
+[2026-11-11 16:48:41] Request from C101: ADD 10 20
+[2026-11-11 16:48:41] Request from C101: ECHO Hello
+[2026-11-11 16:48:41] Request from C101: TIME 
+[2026-11-11 16:48:41] Request from C101: HELP 
+[2026-11-11 16:48:41] Request from C101: FOO 
+[2026-11-11 16:48:41] Request from C101: ADD 1
+[2026-11-11 16:48:41] Request from C101: ECHO 
+[2026-11-11 16:48:41] Request from C101: EXIT 
+[2026-11-11 16:48:41] Request from C201: CONNECT 
+[2026-11-11 16:48:41] Request from C201: ECHO C201_msg1
+[2026-11-11 16:48:41] Request from C201: ADD 1 201
+[2026-11-11 16:48:41] Request from C202: CONNECT 
+[2026-11-11 16:48:41] Request from C201: ECHO C201_msg2
+[2026-11-11 16:48:41] Request from C202: ECHO C202_msg1
+[2026-11-11 16:48:41] Request from C201: ADD 2 201
+[2026-11-11 16:48:41] Request from C203: CONNECT 
+[2026-11-11 16:48:41] Request from C202: ADD 1 202
+[2026-11-11 16:48:41] Request from C201: ECHO C201_msg3
+[2026-11-11 16:48:41] Request from C203: ECHO C203_msg1
+[2026-11-11 16:48:41] Request from C202: ECHO C202_msg2
+[2026-11-11 16:48:41] Request from C201: ADD 3 201
+[2026-11-11 16:48:41] Request from C203: ADD 1 203
+[2026-11-11 16:48:41] Request from C202: ADD 2 202
+[2026-11-11 16:48:41] Request from C201: ECHO C201_msg4
+[2026-11-11 16:48:41] Request from C203: ECHO C203_msg2
+[2026-11-11 16:48:41] Request from C202: ECHO C202_msg3
+[2026-11-11 16:48:41] Request from C201: ADD 4 201
+[2026-11-11 16:48:41] Request from C203: ADD 2 203
+[2026-11-11 16:48:41] Request from C202: ADD 3 202
+[2026-11-11 16:48:41] Request from C201: ECHO C201_msg5
+[2026-11-11 16:48:41] Request from C203: ECHO C203_msg3
+[2026-11-11 16:48:41] Request from C202: ECHO C202_msg4
+[2026-11-11 16:48:41] Request from C201: ADD 5 201
+[2026-11-11 16:48:41] Request from C203: ADD 3 203
+[2026-11-11 16:48:41] Request from C202: ADD 4 202
+[2026-11-11 16:48:41] Request from C201: EXIT 
+[2026-11-11 16:48:41] Request from C203: ECHO C203_msg4
+[2026-11-11 16:48:41] Request from C202: ECHO C202_msg5
+[2026-11-11 16:48:41] Request from C203: ADD 4 203
+[2026-11-11 16:48:41] Request from C202: ADD 5 202
+[2026-11-11 16:48:41] Request from C203: ECHO C203_msg5
+[2026-11-11 16:48:41] Request from C202: EXIT 
+[2026-11-11 16:48:41] Request from C203: ADD 5 203
+[2026-11-11 16:48:41] Request from C203: EXIT 
+[2026-11-11 16:48:43] Request from C301: CONNECT 
+[2026-11-11 16:48:45] Request from C302: CONNECT 
+[2026-11-11 16:48:45] Request from C302: ADD 2 3
+[2026-11-11 16:48:45] Request from C302: STATS 
+[2026-11-11 16:48:45] Request from C302: EXIT 
+[2026-11-11 16:48:45] Shutting down. Total requests processed: 50
+[2026-11-11 16:50:38] Server started. Waiting for requests on /tmp/os_server_fifo (Ctrl+C to stop)
+[2026-11-11 16:50:58] Request from C101: CONNECT 
+[2026-11-11 16:51:02] Request from C101: HELP 
+[2026-11-11 16:51:14] Request from C101: ECHO AZHAR IS GAY
+[2026-11-11 16:51:45] Request from C101: EXIT 
+[2026-11-11 16:52:10] Request from C101: CONNECT 
+[2026-11-11 16:52:13] Request from C101: HELP 
+[2026-11-11 16:52:22] Request from C101: ECHO AZHAR IS CS STUDENT 
+[2026-11-11 16:53:44] Request from C102: CONNECT 
+[2026-11-11 16:54:02] Request from C103: CONNECT 
+[2026-11-11 16:56:26] Request from C101: TIME 
+[2026-11-11 16:56:49] Request from C101: ECHO THIS OUT PROJECT
+[2026-11-11 16:57:01] Request from C103: HELP 
+[2026-11-11 16:57:06] Request from C103: ADD 20 50
+[2026-11-11 16:57:20] Request from C102: STATS 
+[2026-11-11 16:57:22] Request from C102: TIME 
+[2026-11-11 16:57:42] Shutting down. Total requests processed: 15

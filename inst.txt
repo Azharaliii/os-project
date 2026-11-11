@@ -1,0 +1,27 @@
+# Terminal 1 (server)
+cd ~/os_project && ./server
+
+# Terminal 2
+cd ~/os_project && ./client C101
+
+# Terminal 3
+cd ~/os_project && ./client C102
+
+# Terminal 4
+cd ~/os_project && ./client C103
+
+
+
+Har client mein ye commands type karo:
+
+TIME
+ECHO Hello
+ADD 10 20
+HELP
+STATS
+FOO
+EXIT
+
+
+make clean            # binaries aur sab FIFOs hata deta hai
+cat os_server.log     # server ka activity log
